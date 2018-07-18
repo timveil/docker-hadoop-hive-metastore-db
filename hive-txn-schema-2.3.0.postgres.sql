@@ -15,7 +15,7 @@
 
 --
 -- Tables for transaction management
--- 
+--
 
 CREATE TABLE TXNS (
   TXN_ID bigint PRIMARY KEY,
@@ -69,7 +69,7 @@ CREATE TABLE HIVE_LOCKS (
   HL_BLOCKEDBY_EXT_ID bigint,
   HL_BLOCKEDBY_INT_ID bigint,
   PRIMARY KEY(HL_LOCK_EXT_ID, HL_LOCK_INT_ID)
-); 
+);
 
 CREATE INDEX HL_TXNID_INDEX ON HIVE_LOCKS USING hash (HL_TXNID);
 
