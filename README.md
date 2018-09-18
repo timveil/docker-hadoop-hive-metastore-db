@@ -7,4 +7,4 @@ see $HIVE_HOME/scripts/metastore/upgrade
 or https://github.com/apache/hive/tree/master/metastore/scripts/upgrade/postgres
 
 
-docker build --no-cache -t timveil/docker-hadoop-hive-metastore-db:latest .
+docker build --no-cache -t timveil/docker-hadoop-hive-metastore-db:3.1.x .
