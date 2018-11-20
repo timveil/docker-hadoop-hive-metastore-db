@@ -21,3 +21,5 @@ WHERE tableowner = CURRENT_USER and schemaname = 'public';
   \o
   \i /tmp/grant-privs
 EOSQL
+
+echo "initializing Hive Metastore DB - COMPLETE!"
