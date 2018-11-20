@@ -1,6 +1,6 @@
 # docker-hadoop-hive-metastore-db
 
-uses postgres 10
+uses postgres 11
 
 schema files are included as part of hive distribution
 
