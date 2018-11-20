@@ -1,5 +1,7 @@
 # docker-hadoop-hive-metastore-db
 
+use postres 9
+
 schema files are included as part of hive distribution
 
 see $HIVE_HOME/scripts/metastore/upgrade
